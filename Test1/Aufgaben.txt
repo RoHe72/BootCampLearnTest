@@ -1,0 +1,17 @@
+Test:
+git clone https://space.it-frankfurt.com/gitlab/trainings/java/tempo-team/2019-3/test.git
+
+1)	Erhöhe die TestCoverage des BooleanCalculator auf 100%
+    - Probleme bei der Run Configuration? Sprecht mir mir!
+2)	Erweitere die Klasse Musicpiece mit:
+a.	Einer Länge in double
+b.	Einem Titel mit String
+c.	Einem Autornamen mit String
+d.	Erstelle einen Konstruktor der alle drei Attribute befüllen kann
+
+3)	Erweitere die Klasse MusicpieceDB
+a.	mit einer Liste von Musicpieces
+b.	Die Liste ist am Anfang leer
+c.	Erstelle eine Methode um Musicpieces hinzuzufügen
+d.	Füge 5 verschiedene Musicpieces der Liste hinzu, innerhalb der Main Methode
+
