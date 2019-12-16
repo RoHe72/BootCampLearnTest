@@ -33,14 +33,7 @@ public class EmployeeController {
 		return employeeRepository.findAll();
 	}
 
-//	@GetMapping("/employees/{empID}")
-//	
-//	public ResponseEntity<?> getOneEmployee(@PathVariable Long ID) {
-//		
-//		var maybeEmployees = employeeRepository.findById(ID);
-//		return ResponseEntity.of(maybeEmployees);
-//		
-//	}
+
 
 	@PostMapping("/employees")
 	@ResponseStatus(HttpStatus.CREATED)
